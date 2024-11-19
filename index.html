@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Victor Rojas</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo-section">
+            <img src="./img/perfil.png" alt="descripcion" width="40" height="40" />
+            <h3>Victor Rojas</h3>
+        </div>
+        <nav class="navegation-nav">
+            <div>
+                <a href="#Home">Home</a>
+                <a href="#sobre-mi">Sobre Mi</a>
+                <a href="#recomendaciones">Recomendación</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+        </nav>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/victorrojas7291/" class="sc" target="_blank"><i
+                    class="fab fa-instagram"></i>
+                Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=100012035659327" class="sc" target="_blank"><i
+                    class="fab fa-facebook"></i>Facebook</a>
+            <a href="https://wa.link/mwwwed" class="sc" target="_blank"><i class="fab fa-whatsapp"></i>Whatsapp</a>
+            <a href="https://github.com/VictorRojas101007" class="sc" target="_blank"><i
+                    class="fab fa-github"></i>Github</a>
+        </div>
+    </header>
+
+    <main id="Home">
+        <section class="section-main">
+            <div>
+                <img src="./img/perfil.png" alt="descripcion" width="200" height="200" />
+                <h3>Victor <span>Rojas</span></h3>
+                <h5>Bienvenidos a mi Blog</h5>
+                <h5>Aspirante a Ingeniero de Software y FullStack</h5>
+                <h5>Egresado de Universal School</h5>
+
+            </div>
+        </section>
+    </main>
+
+    <section id="sobre-mi" class="about-section">
+        <div class="about-content">
+            <h3>Sobre Mi</h3>
+            <p>
+                Soy Victor Rojas un adolescente con muchas ganas de salir adelante y aprovechar todas las oportunidades
+                que se
+                me den, me considero una persona muy proactiva a la que le gusta nunca dejar de aprender, a lo largo de
+                mi vida he
+                obtenido algunos reconocimientos tanto deportivos como académicos
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="./img/perfil.png" alt="portafolio" class="img-about" />
+        </div>
+    </section>
+
+    <section id="recomendaciones" class="projects-section">
+        <h3>Mis Cartas de Recomendación</h3>
+        <div class="projects-list">
+            <div class="div-projects">
+                <img src="./img/perfil.png" width="470px" height="470px" alt="#" />
+                <a href="#">Carta #1</a>
+                <p>
+                    <span>Profesor Carlos Sanchez</span> <br> <br> Egresado de la Universidad Nacional de Trujillo en la
+                    carrera de
+                    Ingeniera
+                    de Software, ejerció sobre mi el cargo de profesor del área de Química.
+                </p>
+            </div>
+            <div class="div-projects">
+                <img src="./img/perfil.png" width="470px" height="470px" alt="#" />
+                <a href="#">Carta #2</a>
+                <p>
+                    <span>Profesora Sintia Valverde</span> <br><br>Egresada de la Universidad Nacional de Trujillo en la
+                    carrera de Docencia, ejeció sobre mi el cargo de directora escolar
+                </p>
+            </div>
+            <div class="div-projects">
+                <img src="./img/perfil.png" width="470px" height="470px" alt="#" />
+                <a href="#">Carta #3</a>
+                <p>
+                    <span id="altamirano">Profesor Cristhian Altamirano</span> <br><br>Egresado de la Universidad
+                    Nacional de Trujillo
+                    en la carrera de Contabilidad y finanzas, ejerció sobre mi el cargo de profesor del área de
+                    Geografía y Economía.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="proyectos" class="projects-section">
+        <h3>Mis Proyectos</h3>
+        <div class="projects-list">
+            <div class="div-projects">
+                <img src="./img/Vacaciones.png" width="470px" height="470px" alt="#" />
+                <a href="#">Busca de Vacaciones</a>
+                <p>
+                    Esta es una página construida con lenguajes como JAVASCRIPT, HTML y CSS, que te informa si es que la
+                    habitación que buscas, cumple con los requerimientos de una disponible.
+                </p>
+            </div>
+            <div class="div-projects">
+                <img src="./img/LinkTree.png" width="470px" height="470px" alt="#" />
+                <a href="#">Linktree</a>
+                <p>
+                    Esta es una página hecha con HTML Y CSS, que da acceso a unos links básicos de información del
+                    usuario, mostrando ciertas animaciones y jugando con los colores
+                </p>
+            </div>
+            <div class="div-projects">
+                <img src="./img/Resultado de Notas.png" width="470px" height="470px" alt="#" />
+                <a href="#">Resultado de Notas</a>
+                <p>
+                    Esta es una página que sirve para mostrar las estadísticas del examen de un alumno, de acorde a las
+                    características del examen, esta construida con HTML, CSS y JAVASCRIPT.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="contacto">
+        <div class="contact-container">
+            <h3 class="contact-title">Contacto</h3>
+            <form action="https://formsubmit.co/o2454122@gmail.com" method="POST">
+                <label for="nombre">Nombre: </label>
+                <input type="text" id="nombre" name="nombre" required class="contact-input" />
+
+                <label for="correo">Correo: </label>
+                <input type="email" id="correo" name="email" required class="contact-input" />
+
+                <label for="mensaje">Mensaje: </label>
+                <textarea name="mensaje" id="mensaje" required class="contact-textarea"></textarea>
+
+                <button type="submit" class="contact-button">Enviar Mensaje</button>
+
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                <input type="hidden" name="_captcha" value="false">
+
+            </form>
+        </div>
+    </section>
+    <footer>
+        <h3 class="footer-text">Victor Rojas &copy; 2024</h3>
+    </footer>
+</body>
+
+</html>
